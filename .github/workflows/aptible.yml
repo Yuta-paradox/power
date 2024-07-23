@@ -18,5 +18,5 @@ jobs:
         type: git
         app: yugenleech1
         environment: yugen
-        username: ${{ secrets.APTIBLE_USERNAME }}
-        password: ${{ secrets.APTIBLE_PASSWORD }}
+        username: Yugen
+        password: Luv@2Yugen
