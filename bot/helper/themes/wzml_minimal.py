@@ -2,17 +2,17 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repo'
-    ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
-    ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
-    ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
-<b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
-    OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
-    USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
-    LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
+    ST_BN1_NAME = 'Yugen'
+    ST_BN1_URL = 'https://t.me/YugenNetwork'
+    ST_BN2_NAME = 'Update'
+    ST_BN2_URL = 'https://t.me/Yugen_Bots'
+    ST_MSG = '''<blockquote><i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
+<b>Type {help_command} to get a list of available commands</b></blockquote>'''
+    ST_BOTPM = '''<blockquote>Now, This bot will send all your files and links here. Start Using ...</blockquote>'''
+    ST_UNAUTH = '''<blockquote>You Are not authorized user! Deploy your own YUGEN Mirror-Leech bot</blockquote>'''
+    OWN_TOKEN_GENERATE = '''<blockquote><b>Temporary Token is not yours!</b>\n\nKindly generate your own.</blockquote>'''
+    USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<pre>Kindly generate a new one.</pre>'''
+    LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<pre>No Need to Accept Temp Tokens.</pre>'''
     ACTIVATE_BUTTON = 'Activate Temporary Token'
     TOKEN_MSG = '''<b><u>Generated Temporary Login Token!</u></b>
 <b>Temp Token:</b> <code>{token}</code>
@@ -24,7 +24,7 @@ class WZMLStyle:
     # async def login(_, message): --> __main__.py
     LOGGED_IN = '<b>Already Bot Login In!</b>'
     INVALID_PASS = '<b>Invalid Password!</b>\n\nKindly put the correct Password .'
-    PASS_LOGGED = '<b>Bot Permanent Login Successfully!</b>'
+    PASS_LOGGED = '<pre>Bot Permanent Login Successfully!</pre>'
     LOGIN_USED = '<b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
@@ -37,10 +37,10 @@ class WZMLStyle:
     MICS_BT = 'Mics'
     O_S_BT = 'Owner & Sudos'
     CLOSE_BT = 'Close'
-    HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
+    HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<pre>NOTE: <i>Click on any CMD to see more minor detalis.</i></pre>"
 
     # async def stats(client, message):
-    BOT_STATS = '''⌬ <b><i>BOT STATISTICS :</i></b>
+    BOT_STATS = '''<blockquote>⌬ <b><i>BOT STATISTICS :</i></b>
 ┖ <b>Bot Uptime :</b> {bot_uptime}
 
 ┎ <b><i>RAM ( MEMORY ) :</i></b>
@@ -56,7 +56,7 @@ class WZMLStyle:
 ┃ <b>Total Disk Read :</b> {disk_read}
 ┃ <b>Total Disk Write :</b> {disk_write}
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
-    
+    </blockquote>
     '''
     SYS_STATS = '''⌬ <b><i>OS SYSTEM :</i></b>
 ┠ <b>OS Uptime :</b> {os_uptime}
@@ -86,7 +86,7 @@ class WZMLStyle:
 
 ⌬ <b>REMARKS :</b> <code>{remarks}</code>
     '''
-    BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>
+    BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>https://t.me/Yugen_Bots
 ┠ <b>Direct Limit :</b> {DL} GB
 ┠ <b>Torrent Limit :</b> {TL} GB
 ┠ <b>GDrive Limit :</b> {GL} GB
@@ -296,3 +296,4 @@ class WZMLStyle:
 ┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
 ┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
 ┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+    
